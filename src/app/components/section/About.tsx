@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="container mx-auto mt-16">
       <h1 className="py-10 text-2xl uppercase">О нас</h1>
-      <div className="grid grid-cols-2 ">
+      <div className="grid grid-cols-2">
         <div className="flex flex-col pr-10">
           <div className="flex flex-col">
             <h2 className="font-bold pt-6 pb-3">"Почему выбирают нас?"</h2>

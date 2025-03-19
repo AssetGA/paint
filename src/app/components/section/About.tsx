@@ -8,10 +8,7 @@ const About = () => {
         <div className="flex flex-col pr-10">
           <div className="flex flex-col">
             <h2 className="font-bold pt-6 pb-3">"Почему выбирают нас?"</h2>
-            <p>
-              Расскажите о вашем опыте, технологиях, которые вы используете, и
-              преимуществах работы с вами.
-            </p>
+            <p>Мы воплощаем в реальность желания клиентов.</p>
           </div>
           <div className="flex flex-col">
             <h2 className="font-bold pt-6 pb-3">Преимущества:</h2>

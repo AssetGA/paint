@@ -1,56 +1,8 @@
+import { works } from "@/app/api/works";
 import Image from "next/image";
+import Link from "next/link";
 
 const Portfolio = () => {
-  const works = [
-    {
-      id: 1,
-      title: "Project 1",
-      imageUrl: "/images/work1.jpg",
-      description: "A beautiful wall art design.",
-    },
-    {
-      id: 2,
-      title: "Project 2",
-      imageUrl: "/images/work2.jpg",
-      description: "Modern interior wall painting.",
-    },
-    {
-      id: 3,
-      title: "Project 3",
-      imageUrl: "/images/work3.jpg",
-      description: "Custom mural for a cafe.",
-    },
-    {
-      id: 4,
-      title: "Project 4",
-      imageUrl: "/images/work4.jpg",
-      description: "Office wall decoration.",
-    },
-    {
-      id: 5,
-      title: "Project 5",
-      imageUrl: "/images/work1.jpg",
-      description: "A beautiful wall art design.",
-    },
-    {
-      id: 6,
-      title: "Project 6",
-      imageUrl: "/images/work2.jpg",
-      description: "Modern interior wall painting.",
-    },
-    {
-      id: 7,
-      title: "Project 7",
-      imageUrl: "/images/work3.jpg",
-      description: "Custom mural for a cafe.",
-    },
-    {
-      id: 8,
-      title: "Project 8",
-      imageUrl: "/images/work4.jpg",
-      description: "Office wall decoration.",
-    },
-  ];
   return (
     <div className="container mx-auto mt-16">
       <h1 className="py-10 text-2xl uppercase">Наши работы</h1>
@@ -68,9 +20,14 @@ const Portfolio = () => {
                 className="w-full object-cover"
                 fill
               />
-              <button className="absolute border rounded-sm px-3 py-2 right-3 items-center justify-center hover:border-2 hover:border-blue-300  text-center">
+              <Link
+                href={{
+                  pathname: `/${work.id}`,
+                }}
+                className="absolute border rounded-sm px-3 py-2 right-3 items-center justify-center hover:border-2 hover:bg-white/50 hover:border-blue-300  text-center my-2"
+              >
                 Хочу так же!
-              </button>
+              </Link>
               <div className="p-4">
                 <h3 className="text-xl font-semibold mb-2">{work.title}</h3>
                 <p className="text-gray-600">{work.description}</p>

@@ -7,6 +7,7 @@ import Quote from "./section/Quote";
 import HowWork from "./section/HowWork";
 import Usefull from "./section/Usefull";
 import Material from "./section/Material";
+import Galery from "./section/Galery";
 
 const Main = () => {
   return (

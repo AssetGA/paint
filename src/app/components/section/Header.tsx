@@ -22,21 +22,19 @@ const Header = () => {
               акценты, которые подчеркнут ваш стиль.
             </p>
           </div>
-          <div className="relative flex flex-row justify-center my-20">
-            <button className="flex justify-center w-[55px] h-[55px] border border-white bg-green-300 border-3 rounded-full hover:bg-white">
-              <Image
-                src={"/img/arrow.svg"}
-                width={30}
-                height={10}
-                alt="arrow"
-              />
-            </button>
-            <p className="absolute z-10 text-white ml-20 hover:text-black">
-              Напишите перезвоним
-            </p>
-            <p className="py-5 ml-5 text-black-200 z-20 hover:text-white">
-              Напишите перезвоним
-            </p>
+          <div className="flex justify-center">
+            <div className="flex flex-row justify-center my-20 hover:bg-white/70 p-5 rounded-sm">
+              <button className="flex justify-center w-[55px] h-[55px] border border-white bg-green-300 border-3 rounded-full hover:bg-white">
+                <Image
+                  src={"/img/arrow.svg"}
+                  width={30}
+                  height={10}
+                  alt="arrow"
+                />
+              </button>
+
+              <p className="py-5 ml-5 text-black z-20">Напишите перезвоним</p>
+            </div>
           </div>
         </div>
         <div className="flex flex-row gap-2 justify-center">

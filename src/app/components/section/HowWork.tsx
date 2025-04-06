@@ -35,7 +35,7 @@ const HowWork = () => {
         <div className="relative w-full h-[800px]">
           {/* Фоновое изображение */}
           <Image
-            src="/img/rectangle.png"
+            src="/img/foto4.jpg"
             alt="картина на стену"
             fill
             style={{ objectFit: "cover" }}

@@ -5,11 +5,11 @@ const Footer = () => {
   return (
     <div
       className="flex w-full min-h-[600px] bg-cover bg-center justify-center text-white font-bold text-center p-6 mt-20"
-      style={{ backgroundImage: "url('/img/rectangle13.png')" }}
+      style={{ backgroundImage: "url('/img/foto20.jpg')" }}
     >
       <div className="container mx-auto flex justify-center">
         <div className="grid grid-cols-2 gap-5 pt-20">
-          <div className="w-full">
+          <div className="w-full bg-black/40 p-10">
             <h1 className="mb-10 uppercase">Оставить заявку</h1>
             <label className="block mb-2">
               Имя:
@@ -31,7 +31,7 @@ const Footer = () => {
               <ButtonClient2 name="Напиши перезвоним" />
             </div>
           </div>
-          <div className="w-full">
+          <div className="w-full hover:bg-black/50 p-10">
             <h1 className="mb-10 uppercase">Контакты</h1>
             <div className="flex justify-start">
               <ul className="space-y-4">

@@ -9,7 +9,7 @@ const Usefull = () => {
         <div className="relative w-full h-[500px]">
           {/* Фоновое изображение */}
           <Image
-            src="/img/fone-service.png"
+            src="/img/foto2.jpg"
             alt="картина на стену"
             fill
             style={{ objectFit: "cover" }}
@@ -21,7 +21,7 @@ const Usefull = () => {
 
           {/* Текст по центру изображения */}
           <div className="absolute inset-0 flex items-center justify-center text-white text-2xl font-semibold text-center p-6">
-            <p>Добавьте фото </p>
+            <p> </p>
           </div>
         </div>
         <div className="flex flex-col pr-10">

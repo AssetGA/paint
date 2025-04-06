@@ -23,7 +23,7 @@ const About = () => {
         </div>
         <div className="relative w-full h-[800px]">
           <Image
-            src="/img/fone-service.png"
+            src="/img/foto18.jpg"
             alt="картина на стену"
             fill
             style={{ objectFit: "cover" }}
@@ -33,7 +33,7 @@ const About = () => {
           <div className="absolute inset-0 bg-black/40"></div>
 
           <div className="absolute inset-0 flex items-center justify-center text-white text-2xl font-semibold text-center p-6">
-            <p>Добавьте фото вашей команды, чтобы вызвать доверие.</p>
+            <p>Доверьтесь профессионалам</p>
           </div>
         </div>
       </div>
